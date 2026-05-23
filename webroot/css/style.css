@@ -38,14 +38,6 @@ body {
     overflow: hidden;
 }
 
-/* POP UP ERROR MESEJ */
-.message,
-.flash,
-.alert {
-    position: relative;
-    z-index: 9999 !important;
-}
-
 /* Pastikan box login terapung di atas Vanta */
 .login-box {
     position: relative;
