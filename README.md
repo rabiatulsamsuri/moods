@@ -7,7 +7,7 @@ Mood Tracker System is a web-based mental health tracking application developed 
 
 1. Use the following demo account to access the system:
 
-- Username: 'Rabiaa'
+- Username: 'Rabia'
 - Password: '12345677'
 - Email: 'rabia@gmail.com'
 
