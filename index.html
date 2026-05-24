@@ -54,11 +54,11 @@
                 </div>
 
                 <div class="d-flex gap-2">
-                    <a href="#" class="btn btn-outline-success flex-fill py-2">
+                    <a href="#" id="signupBtn" class="btn btn-outline-success flex-fill py-2">
                         Sign Up
                     </a>
 
-                    <button type="submit" class="btn btn-primary flex-fill py-2 shadow-sm">
+                    <button type="button" id="loginBtn" class="btn btn-primary flex-fill py-2 shadow-sm">
                         Login
                     </button>
                 </div>
@@ -68,20 +68,17 @@
 
     <script>
     document.addEventListener("DOMContentLoaded", function () {
-        const loginForm = document.querySelector("#loginForm");
-        const signupBtn = document.querySelector("#signupBtn");
-    
-        loginForm.addEventListener("submit", function (e) {
-            e.preventDefault();
+        document.querySelector("#loginBtn").addEventListener("click", function () {
             alert("Login simulation. Please open README for further information");
         });
     
-        signupBtn.addEventListener("click", function (e) {
+        document.querySelector("#signupBtn").addEventListener("click", function (e) {
             e.preventDefault();
             alert("Sign up simulation. Please open README for further information");
         });
     });
     </script>
+    
     
     <script>
     document.addEventListener('DOMContentLoaded', function () {
